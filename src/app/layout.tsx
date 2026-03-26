@@ -16,9 +16,9 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Mexican Spanish Flashcards",
+  title: "Spanish Flashcards",
   description:
-    "Learn everyday Mexican Spanish phrases with English & Chinese translations.",
+    "Learn everyday Spanish phrases with English & Chinese translations.",
 };
 
 export default function RootLayout({

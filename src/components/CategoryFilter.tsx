@@ -9,10 +9,10 @@ interface Props {
 }
 
 const categoryEmoji: Record<string, string> = {
-  All: "🌮",
+  All: "📚",
   Greeting: "👋",
   Family: "👨‍👩‍👧",
-  Food: "🌶️",
+  Food: "🍽️",
   Polite: "🤝",
   "Daily Life": "☀️",
   "Small Talk": "💬",

@@ -76,27 +76,26 @@ export default function FlashCard({
 
         {/* BACK */}
         <div
-          className="absolute inset-0 rounded-2xl border border-green-100 bg-gradient-to-br from-green-50 to-emerald-50 shadow-md shadow-green-100 flex flex-col justify-between p-5"
+          className="absolute inset-0 rounded-2xl border border-purple-100 bg-gradient-to-br from-purple-50 to-indigo-50 shadow-md shadow-purple-100 flex flex-col justify-between p-5"
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <div className="flex items-center gap-1.5">
-            <span className="text-lg">🇲🇽</span>
             <span className={`text-xs font-semibold px-2.5 py-1 rounded-full border ${categoryColors[phrase.category]}`}>
               {phrase.category}
             </span>
           </div>
           <div className="flex flex-col gap-3 flex-1 justify-center px-1">
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-emerald-500 font-bold mb-1">English</p>
+              <p className="text-[10px] uppercase tracking-widest text-purple-500 font-bold mb-1">English</p>
               <p className="text-base font-semibold text-gray-800">{phrase.english}</p>
             </div>
-            <div className="h-px bg-emerald-100" />
+            <div className="h-px bg-purple-100" />
             <div>
-              <p className="text-[10px] uppercase tracking-widest text-emerald-500 font-bold mb-1">中文</p>
+              <p className="text-[10px] uppercase tracking-widest text-purple-500 font-bold mb-1">中文</p>
               <p className="text-base font-semibold text-gray-800">{phrase.chinese}</p>
             </div>
           </div>
-          <p className="text-center text-xs text-emerald-300 select-none">Tap to flip back ↑</p>
+          <p className="text-center text-xs text-purple-300 select-none">Tap to flip back ↑</p>
         </div>
       </div>
     </div>

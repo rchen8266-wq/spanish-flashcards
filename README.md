@@ -1,6 +1,6 @@
-# 🌮 Mexican Spanish Flashcards
+# 📚 Spanish Flashcards
 
-A clean, modern flashcard app for learning everyday **Mexican Spanish** phrases with **English** and **Chinese** translations. Built with Next.js 14, React, TypeScript, and Tailwind CSS.
+A clean, modern flashcard app for learning everyday **Spanish** phrases with **English** and **Chinese** translations. Built with Next.js 14, React, TypeScript, and Tailwind CSS.
 
 ---
 
@@ -12,14 +12,14 @@ A clean, modern flashcard app for learning everyday **Mexican Spanish** phrases 
 - **Category filters** to study one topic at a time
 - **Favorites** — heart any card and filter to favorites; saved in `localStorage`
 - **Mobile-friendly** responsive grid layout
-- Mexican flag accent colors throughout
+- Modern purple accent colors throughout
 
 ---
 
 ## 🗂 Project Structure
 
 ```
-mexican-flashcards/
+spanish-flashcards/
 ├── src/
 │   ├── app/
 │   │   ├── globals.css       # Tailwind base styles
@@ -55,8 +55,8 @@ mexican-flashcards/
 
 ```bash
 # 1. Clone or download the project
-git clone https://github.com/yourname/mexican-flashcards.git
-cd mexican-flashcards
+git clone https://github.com/yourname/spanish-flashcards.git
+cd spanish-flashcards
 
 # 2. Install dependencies
 npm install

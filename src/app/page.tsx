@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Decorative top bar */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-green-600 via-white to-red-600" />
+      <div className="h-1.5 w-full bg-gradient-to-r from-purple-600 via-white to-indigo-600" />
 
       <div className="max-w-5xl mx-auto px-4 pb-20">
         <Hero />
@@ -56,7 +56,7 @@ export default function Home() {
         {/* Grid */}
         {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-24 text-gray-400 gap-3">
-            <span className="text-5xl">🌵</span>
+            <span className="text-5xl">📚</span>
             <p className="text-lg font-medium">No phrases found</p>
             <p className="text-sm">
               {showFavoritesOnly
@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-center text-xs text-gray-300 pb-8">
-        Built with 🌮 &amp; Next.js · Mexican Spanish Flashcards
+        Built with 📚 &amp; Next.js · Spanish Flashcards
       </footer>
     </main>
   );
